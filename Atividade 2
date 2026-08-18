@@ -1,0 +1,76 @@
+  No cenário atual do desenvolvimento de software e da Web, a comunicação eficiente entre sistemas heterogêneos tornou-se um
+requisito fundamental. A crescente complexidade das aplicações exige que serviços independentes compartilhem dados e funcio-
+nalidades de forma segura e padronizada. Nesse contexto, as APIs (Application Programming Interfaces ou Interfaces de 
+Programação de Aplicações) desempenham um papel central, atuando como ponte de comunicação entre diferentes softwares, plata-
+formas e arquiteturas.
+
+  A adoção de APIs possibilita a construção de ecossistemas modulares, nos quais componentes podem ser atualizados, substi-
+tuídos ou escalados de maneira isolada. O objetivo desta pesquisa é explorar os conceitos fundamentais de APIs e integrações,
+identificar seus principais tipos e arquiteturas, apresentar ferramentas utilizadas no ciclo de desenvolvimento e ilustrar 
+exemplos práticos de aplicação no mercado.
+
+Conceito de API e Integração de Sistemas.
+  Uma API é um conjunto de definições, protocolos e regras que permite que uma aplicação interaja com outra. Em termos sim-
+ples, a API especifica como requisições devem ser feitas, quais formatos de dados utilizar e quais respostas esperar,  
+abstraindo a complexidade interna da implementação subjacente.
+
+  A integração de sistemas refere-se ao processo de conectar diferentes componentes de software ou plataformas (como bancos de
+dados, serviços de terceiros e microserviços) por meio de APIs, permitindo o fluxo automatizado de informações e a interope-
+rabilidade de dados.
+
+Principais Tipos e Estilos de Arquitetura de APIs
+  Existem diferentes abordagens e padrões para a construção de APIs, variando conforme a necessidade do projeto:
+REST (Representational State Transfer):
+Estilo arquitetural baseado em recursos, operando sobre o protocolo HTTP.
+Utiliza verbos HTTP padrões (GET, POST, PUT, DELETE) e formatos leve de troca de dados como JSON.
+É amplamente adotado na Web devido à sua simplicidade, escalabilidade e natureza sem estado (stateless).
+SOAP (Simple Object Access Protocol):
+Protocolo rígido e padronizado baseado em XML.
+Oferece recursos nativos de segurança (WS-Security) e suporte a transações complexas, sendo bastante utilizado em sistemas 
+corporativos legados e no setor bancário.
+
+GraphQL:
+Linguagem de consulta para APIs desenvolvida pelo Facebook.
+Permite que o cliente solicite exatamente os dados de que precisa, evitando os problemas de under-fetching (dados insuficien-
+tes) e over-fetching (dados em excesso).
+
+Webhooks e APIs Orientadas a Eventos (Event-Driven):
+Utilizados para comunicação assíncrona. Em vez de o cliente fazer requisições constantes (polling), o servidor envia uma noti-
+ficação HTTP automaticamente quando um evento específico ocorre.
+
+Ferramentas Essenciais para Desenvolvimento e Testes de APIs
+  O ciclo de vida de uma API envolve criação, documentação, testes e monitoramento. As principais ferramentas utilizadas pela
+indústria incluem:
+
+Postman / Insomnia: Clientes HTTP utilizados para testar endpoints, enviar requisições, validar respostas e automatizar cená-
+rios de teste de integração.
+
+Swagger / OpenAPI Specification: Padrão para descrição e documentação interativa de APIs RESTful, facilitando a comunicação 
+entre desenvolvedores front-end e back-end.
+
+API Gateways (ex.: Kong, Apigee, AWS API Gateway): Componentes de infraestrutura que gerenciam autenticação, controle de taxa
+(rate limiting), roteamento e segurança das APIs.
+
+Exemplos Práticos de Integração no Mercado
+  As APIs estão presentes no dia a dia do desenvolvimento web em diversas verticais:
+
+Processamento de Pagamentos: Integração com plataformas como Stripe ou Mercado Pago para processar pagamentos de cartão de 
+crédito e PIX de forma segura.
+
+Redes Sociais e Autenticação: Uso do padrão OAuth 2.0 para permitir o login em aplicações web utilizando contas do Google, 
+GitHub ou Facebook.
+
+Serviços de Localização e Mapas: Consumo da Google Maps API para exibição de rotas, geolocalização e cálculo de frete.
+
+As APIs e as integrações de sistemas constituem a espinha dorsal da arquitetura de software moderna. Elas não apenas 
+viabilizam a criação de aplicações altamente conectadas e escaláveis, mas também aceleram o tempo de desenvolvimento 
+(time-to-market) ao permitir o reuso de componentes e a contratação de serviços especializados de terceiros.
+
+À medida que o ecossistema tecnológico evolui para modelos descentralizados e arquiteturas de microserviços, o domínio dos 
+conceitos de API — incluindo padrões de segurança, documentação adequada e escolhas arquiteturais alinhadas ao contexto do 
+negócio — permanece indispensável para os profissionais de desenvolvimento web.
+
+Referências
+FIELDING, Roy Thomas. Architectural Styles and the Design of Network-based Software Architectures. Tese (Doutorado) – University of California, Irvine, 2000.
+
+MEDEIROS, Higor. APIs RESTful: Do rascunho à documentação com Swagger. Casa do Código, 2020.
