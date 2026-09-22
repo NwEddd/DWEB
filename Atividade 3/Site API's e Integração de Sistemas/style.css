@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    border-bottom: 4px solid #ffcc00;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+nav {
+    background-color: #002244;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #0055a5;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+.box-arquitetura {
+    background-color: #f9f9f9;
+    border-left: 4px solid #0055a5;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.box-exemplo {
+    background-color: #eef6ff;
+    border: 1px solid #b6d4fe;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+pre {
+    background-color: #222222;
+    color: #00ff00;
+    padding: 12px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #888888;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.teste-box {
+    background-color: #f8f9fa;
+    border: 2px dashed #003366;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #0055a5;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+footer {
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+}
