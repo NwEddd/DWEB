@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.caixa {
+    width: 500px;
+    height: 500px;
+
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2::before {
+    content: "cinza";
+}
+
+
+/* Até 420px */
+@media (max-width: 420px) {
+
+    .caixa {
+        background-color: gray;
+    }
+
+    h2::before {
+        content: "cinza";
+    }
+}
+
+
+/* 421px até 768px */
+@media (min-width: 421px) and (max-width: 768px) {
+
+    .caixa {
+        background-color: orange;
+    }
+
+    h2::before {
+        content: "laranja";
+    }
+}
+
+
+/* 769px até 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .caixa {
+        background-color: magenta;
+    }
+
+    h2::before {
+        content: "rosa";
+    }
+}
+
+
+/* 1025px até 1080px */
+@media (min-width: 1025px) and (max-width: 1080px) {
+
+    .caixa {
+        background-color: red;
+    }
+
+    h2::before {
+        content: "vermelho";
+    }
+}
+
+
+/* 1081px até 1366px */
+@media (min-width: 1081px) and (max-width: 1366px) {
+
+    .caixa {
+        background-color: purple;
+    }
+
+    h2::before {
+        content: "roxo";
+    }
+}
+
+
+/* 1367px até 1920px */
+@media (min-width: 1367px) and (max-width: 1920px) {
+
+    .caixa {
+        background-color: yellow;
+    }
+
+    h2::before {
+        content: "amarelo";
+    }
+}
+
+
+/* Maior que 1920px */
+@media (min-width: 1921px) {
+
+    .caixa {
+        background-color: green;
+    }
+
+    h2::before {
+        content: "verde";
+    }
+}
